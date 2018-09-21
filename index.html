@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>为《汽车密码》发声！</title>
+<link rel="stylesheet" href="css/style.css">
+<script>
+		var phoneWidth =  parseInt(window.screen.width);
+		var phoneScale = phoneWidth/640;
+		var ua = navigator.userAgent;
+		if (/Android (\d+\.\d+)/.test(ua)){
+			var version = parseFloat(RegExp.$1);
+			if(version>2.3){
+				document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+			}else{
+				document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+			}
+		} else {
+			document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+<div id="loadbox" class="page none">
+<div class="vitch">
+<img src="images/car.png" class="loadcar">
+<span>loading...</span>
+</div>
+</div>
+
+<div class="animwrap1 none">
+<div class="box1_1">
+<img src="images/note1_1.png">
+</div>
+<div class="box1_2">
+<img src="images/note1_2.png">
+</div>
+<div class="box1_3">
+<img src="images/note1_3.jpg" style="position:absolute; left:401px; top:52px;">
+</div>
+<img src="images/pic1_4.png" style="position:absolute; left:60px; top:1035px; z-index:1;">
+</div>
+
+<div class="animwrap2">
+<div class="box2_1">
+<div class="box2_1_1"></div>
+<img src="images/pic2_1c.png" style="position:absolute;">
+<img src="images/pic2_1d.png" style="position:absolute;">
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script>
+var hh = $(window).height()
+$('.page').height(hh)
+$('.vitch').css('top',(hh-900)/2)
+
+
+$('.loadcar').css('left','100px')
+
+	$(window).bind('touchmove scroll',function(e){
+		e.preventDefault();
+		return false;
+	})
+
+
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?605e06093f1ca31a337515854f9ce37b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
