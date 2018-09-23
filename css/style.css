@@ -19,7 +19,7 @@
 .box1_3{ position:absolute; width:640px; height:313px; background:url(../images/pic1_3.png) no-repeat 0 0; left:0; top:760px; z-index:2; }
 
 .animwrap2{position:absolute; width:640px; left:0; top:0;}
-.box2_1{ background:url(../images/pic2_1a.png) no-repeat 0 0; width:640px; height:514px; left:0; top:0;}
+.box2_1{ background:url(../images/pic2_1a.png) no-repeat 0 0; width:640px; height:535px; position:relative;}
 .box2_1_1{ position:absolute; left:56px; top:58px; background:url(../images/pic2_1b.jpg) no-repeat 0 0; width:527px; height:435px; -webkit-animation:box2_1_1 steps(2) infinite 0.8s;}
 @-webkit-keyframes box2_1_1 {	
 	0% {
@@ -29,22 +29,63 @@
        background-position:0 -870px;
     }
 }
+.box2_2{ position:relative; width:640px; height:228px; z-index:2;}
+.box2_3{ position:relative; width:640px; height:263px; z-index:1;}
+.box2_4{ position:relative; width:640px; height:332px; z-index:2;}
+.box2_5{ position:relative; width:640px; height:290px; z-index:3;}
+
+.pic2_3{position:absolute; left:0; top:0;}
+.pic2_3_1{position:absolute; left:0; top:0;}
+.note2_2{ position:absolute; left:373px; top:35px;}
+.note2_2_1{ position:absolute; left:276px; top:135px;}
+.note2_3{ position:absolute; left:197px; top:-15px;}
+.note2_3_1{ position:absolute; left:270px; top:-134px;}
+.note2_3_2{ position:absolute; left:316px; top:-64px;}
+.note2_4_1{ position:absolute; left:292px; top:-107px;}
+.note2_4_2{ position:absolute; left:356px; top:-174px;}
+.zi,.hai,.mo,.si{ position:absolute; height:37px; top:202px; background-image:url(../images/note_2_5_1.png);}
+.zi{ width:33px; left:395px; background-position:0 0;}
+.hai{ width:38px; left:428px; background-position:-33px 0;}
+.mo{ width:38px; left:466px; background-position:-71px 0;}
+.si{ width:38px; left:504px; background-position:-109px 0;}
+.dots{ position:absolute; width:158px; height:29px; left:395px; top:239px; background:url(../images/note_2_5_2.png) no-repeat 0 0;}
+
+.animwrap3{position:absolute; width:640px; left:0; top:0; background:url(../images/anim3.jpg) no-repeat 0 bottom #656565;}
+.haha{ position:absolute; left:331px; bottom:456px;}
+.quan1{ position:absolute; left:222px; bottom:531px;}
+.quan2{ position:absolute; left:249px; bottom:596px;}
+.quan3{ position:absolute; left:0; bottom:651px;}
+.pic4_2{ position:relative; height:221px;}
+.pic4_2_1,.pic4_2_2{ position:absolute; left:0; top:0;}
+.pic4_4{}
 
 
+.animend{ background:url(../images/bom.jpg) no-repeat 0 bottom #fff;}
+.animmin{ background:url(../images/minbg.jpg) repeat-y 0 0;}
+.minnote{ position:absolute; height:40px; margin-top:-20px;top:50%; font-size:36px; left:210px;}
+.animcome{ background:url(../images/comepic1.jpg) no-repeat 0 center; overflow:hidden;}
+.comebg{background:url(../images/comebg.png) no-repeat 0 center; }
 
+.animpeng{background:url(../images/comepic1.jpg) no-repeat 0 center; overflow:hidden;}
 
+.animwrap5{ padding-top:48px; text-align:center;}
+.note5_3{ position:absolute; left:122px; top:182px;}
+.note5_3_1{ position:absolute; left:318px; top:119px;}
 
+.note5_4_1{ position:absolute; left:47px; top:75px;}
+.note5_4_2{ position:absolute; left:346px; top:278px;}
+.pic6_1{ background:url(../images/pic6_1.jpg) no-repeat 0 0; margin-left:48px; position:relative; width:539px; height:174px;}
+.note6_3{ position:absolute; left:300px; top:20px;}
+.note6_4{ position:absolute; left:300px; top:20px;}
 
+.dot{ position:absolute; display:block; width:16px; height:16px; background-color:#000;}
+.pic6_5{ background:url(../images/pic6_6_02.jpg) no-repeat 0 bottom; width:640px; height:740px; position:relative;}
+.note6_5{ position:absolute; left:26px; top:35px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.pic7_1{ position:absolute; left:0; top:0;}
+.pic7_2{ position:absolute; width:640px; height:394px; background:url(../images/pic7_2.png) no-repeat 0 0; left:0; top:287px;}
+.note7_2{ position:absolute; left:327px; top:36px;}
+.pic7_3{ position:absolute; width:640px; height:381px; background:url(../images/pic7_3.png) no-repeat 0 0; left:0; top:686px;}
+.note7_3{ position:absolute; left:62px; top:120px;}
+.pic7_4{ position:absolute; width:640px; height:423px; background:url(../images/pic7_4.png) no-repeat 0 0; left:0; top:1063px;}
+.note7_4{ position:absolute; left:252px; top:36px;}
